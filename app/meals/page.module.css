@@ -1,0 +1,43 @@
+.mealsections{
+    margin: 3rem auto;
+    padding: 0px 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+@media(max-width: 700px){
+    .mealsections{
+        width: 95%;
+    }
+}
+.header > h1, .header>p{
+    color: white;
+    /* font-size: xx-large; */
+}
+
+.extras{
+    background: linear-gradient(90deg,  #f9572a, #ff9b05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.loading{
+    text-align: center;
+    animation: loading 1.3s ease-in-out infinite;
+    color: rgb(219, 213, 213);
+}
+@keyframes loading{
+    0% {
+        color: rgba(93, 101, 104, 0.842);
+    };
+    25%{
+        color: rgb(182, 191, 199);
+    };
+    50%{
+        color: rgb(176, 183, 188);
+    };
+    100%{
+        color: rgb(246, 242, 242);
+    }
+}

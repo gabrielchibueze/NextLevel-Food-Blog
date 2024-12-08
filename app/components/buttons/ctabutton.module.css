@@ -1,0 +1,45 @@
+.cta {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+.cta > .accent {
+  display: inline-block;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+}
+.cta > a:hover,
+.cta > a:active,
+.cta > button:hover,
+.cta > button:active {
+  background: linear-gradient(90deg, #ff9b05, #f9572a);
+}
+.cta > .accent:hover {
+  box-shadow: 1px 2px 15px #aa864cce;
+}
+.cta > .flat {
+  background: transparent;
+  font-weight: normal;
+  color: #ff9b05;
+  text-decoration: none;
+  padding-left: 0;
+}
+.cta > .flat:hover,
+.cta > .flat:active {
+  background: transparent;
+  color: #f9b241;
+}
+.cta > button {
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cta > button:disabled {
+  cursor: not-allowed;
+}

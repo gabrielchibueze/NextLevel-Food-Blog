@@ -1,0 +1,27 @@
+.sharemeal {
+  width: 50%;
+  max-width: 50rem;
+  margin-top: 3rem;
+  margin-left: 11%;
+  color: white;
+}
+.sharemeal > h1,
+.sharemeal > p {
+  margin: 0px;
+}
+.sharemeal > p {
+  color: rgb(206, 202, 202);
+}
+.highlight {
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  background-clip: text;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 800px) {
+  .sharemeal {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}

@@ -1,0 +1,21 @@
+.loading {
+  text-align: center;
+  margin-top: 5rem;
+  color: beige;
+  animation: loading 1.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    color: rgb(45, 45, 41);
+  }
+  25% {
+    color: rgb(96, 96, 83);
+  }
+  50% {
+    color: rgb(200, 200, 192);
+  }
+  100% {
+    color: white;
+  }
+}

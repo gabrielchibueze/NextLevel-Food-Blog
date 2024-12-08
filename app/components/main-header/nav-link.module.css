@@ -1,0 +1,30 @@
+.navlinks > a {
+  color: white;
+  text-decoration: none;
+}
+
+.navlinks > a > p {
+  /* color: white; */
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.navlinks > a > p:hover,
+.navlinks > a > p:active {
+  text-shadow: 1px 0 20px orange;
+  color: orange;
+}
+
+.activepath {
+  color: orange;
+  /* text-shadow: 1px 0 20px orange; */
+}
+
+@media (max-width: 800px) {
+  .navlinks > a > p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+}

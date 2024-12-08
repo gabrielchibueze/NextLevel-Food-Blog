@@ -1,0 +1,33 @@
+.imagepicker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.imagepicker > label {
+  text-transform: uppercase;
+}
+.imagepicker > .pickfile {
+  background-color: black;
+  padding: 0.5rem;
+}
+.pickfile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.pickfile > button {
+  width: fit-content;
+  color: rgb(43, 39, 39);
+  cursor: pointer;
+}
+.pickfile > input {
+  cursor: pointer;
+}
+.input {
+  display: none;
+}
+.input .touched.invalid {
+  border-color: red;
+  background: #941818;
+  outline: 1px rgb(217, 14, 14) solid;
+}

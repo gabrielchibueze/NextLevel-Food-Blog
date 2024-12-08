@@ -1,0 +1,36 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.input label {
+  text-transform: uppercase;
+  color: rgb(206, 202, 202);
+  font-weight: 600;
+}
+.input > input,
+.input > textarea {
+  background-color: black;
+  border: none;
+  box-shadow: 0 0 1.5px rgb(98, 97, 95);
+  color: rgb(206, 202, 202);
+  padding: 0.3rem;
+  font-size: 1rem;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0.2rem;
+}
+
+.input > textarea {
+  resize: none;
+}
+.input > input:focus,
+.input > textarea:focus {
+  outline: 1px rgb(82, 70, 70) solid;
+}
+
+.input .touched.invalid {
+  border-color: red;
+  /* background: #941818; */
+  outline: 1px rgb(217, 14, 14) solid;
+}
